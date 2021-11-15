@@ -15,7 +15,7 @@
         <div></div>
         <h1>Calculadora de IMC</h1>
   
-        <form action="">
+
             <p>Altura (en cm)</p>
     
             <input type="text" id="altura">
@@ -25,7 +25,7 @@
             <input type="text" id="peso">
     
             <button id="btn" type="button" class="btn btn-primary">Calcular</button>
-         </form>
+       
         <div id="resultado"></div>
         <div id="pesoPromedio"></div>
         <div id="pesoIdeal"></div>
@@ -40,7 +40,7 @@
     </div> 
 
     <div id="registro" class="container">
-        <div class="d-row">
+        <div>
             <h1>Registro</h1>
     
             <p>Nombre y Apellido</p>
@@ -59,20 +59,27 @@
         </div>
     </div>
 
-    <div id="login" class="container">
-        <h1 class="texto">Inicia Sesión</h1>
-        <p id="error"></p>
-
-        <p >Email</p>
-  
-        <input type="text" id="usuario">
-  
-        <p class="texto">Contraseña</p>
-  
-        <input type="password" id="contrasena">
+    <div id="login" class="container form-section">
+        <div class="form-content">
+            <form action="">
+                <h1 class="texto">Inicia Sesión</h1>
+                <p id="error"></p>
+                <div class="texto">
+                    <p>Email</p>
             
-        <button id="submit" class="texto" type="button" class="btn btn-primary">Login</button>
-        <button id="redireccionRegistro" type="button" class="btn btn-primary"> Quiero registrarme</button>
+                    <input type="text" id="usuario"> 
+                </div>
+                <div class="texto">
+                    <p class="texto">Contraseña</p>
+            
+                    <input type="password" id="contrasena">
+                </div>  
+                <div class="texto">
+                    <button id="submit" class="texto" type="button" class="btn btn-primary">Login</button>
+                    <button id="redireccionRegistro" type="button" class="btn btn-primary"> Quiero registrarme</button>
+                </div>
+            </form>
+        </div>
     </div>
         
     
