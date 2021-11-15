@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+body{
+	/* background: url(../media/fondo.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.texto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+.container{
+    display: none;
+}

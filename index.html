@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Calculadora de IMC</title>
+	<meta charset=UTF-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+  	<meta name="Calculadora de IMC" content="realizar un calculo de indice de masa corporal a partir de la altura y el peso ingresado por los usuarios">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+</head>
+  
+<body>
+    <div id="calculo" class="container">
+        <div></div>
+        <h1>Calculadora de IMC</h1>
+  
+        <form action="">
+            <p>Altura (en cm)</p>
+    
+            <input type="text" id="altura">
+    
+            <p>Peso (en kg)</p>
+    
+            <input type="text" id="peso">
+    
+            <button id="btn" type="button" class="btn btn-primary">Calcular</button>
+         </form>
+        <div id="resultado"></div>
+        <div id="pesoPromedio"></div>
+        <div id="pesoIdeal"></div>
+        <div id="imcIdeal"></div>
+
+        <button id="historial" type="button" class="btn btn-primary">Ver historial</button>
+        <button id="cerrar" type="button" class="btn btn-primary">Cerrar sesion</button>
+
+        <div id="verHistorial">
+            
+        </div>
+    </div> 
+
+    <div id="registro" class="container">
+        <div class="d-row">
+            <h1>Registro</h1>
+    
+            <p>Nombre y Apellido</p>
+    
+            <input type="text" id="nombreRegistro">
+
+            <p>Email</p>
+    
+            <input type="text" id="usuarioRegistro">
+    
+            <p>Contraseña</p>
+    
+            <input type="text" id="contrasenaRegistro">
+            
+            <button id="registrarme" type="button" class="btn btn-primary">Registrarme</button>
+        </div>
+    </div>
+
+    <div id="login" class="container">
+        <h1 class="texto">Inicia Sesión</h1>
+        <p id="error"></p>
+
+        <p >Email</p>
+  
+        <input type="text" id="usuario">
+  
+        <p class="texto">Contraseña</p>
+  
+        <input type="password" id="contrasena">
+            
+        <button id="submit" class="texto" type="button" class="btn btn-primary">Login</button>
+        <button id="redireccionRegistro" type="button" class="btn btn-primary"> Quiero registrarme</button>
+    </div>
+        
+    
+    <script src="./js/archivo.js"></script>
+    
+</body>
+  
+</html>
